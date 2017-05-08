@@ -14,6 +14,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by pkpk1234 on 2017/5/8.
+ * insert sample data.
+ * can move the code into @Before, or add init.sql
  */
 @Component
 public class ApplicationInitRunner implements CommandLineRunner {
